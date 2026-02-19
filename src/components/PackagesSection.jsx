@@ -53,7 +53,6 @@ const PackagesSection = () => (
           key={pkg.title}
           className={`flex-1 bg-white rounded-xl shadow-lg p-6 flex flex-col border-2 ${pkg.highlight ? 'border-red-400 scale-105' : pkg.vip ? 'border-yellow-300' : 'border-transparent'} relative`}
         >
-          <span className={`absolute right-4 top-4 text-xs font-bold ${pkg.highlight ? 'bg-yellow-300 text-black px-2 py-1 rounded' : pkg.vip ? 'bg-yellow-200 text-black px-2 py-1 rounded' : 'text-red-500'}`}>{pkg.highlight ? '⭐ POPULAR' : pkg.vip ? '👑 VIP' : pkg.type}</span>
           <span className="italic text-red-500 font-semibold mb-1">{pkg.subtitle}</span>
           <h3 className="text-2xl font-bold mb-2 text-black">{pkg.title}</h3>
           <ul className="mb-4 text-gray-800 flex-1">
