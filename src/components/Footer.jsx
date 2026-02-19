@@ -3,7 +3,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-[#222] py-8 px-4 flex flex-col items-center justify-center mt-auto relative">
+        <footer className="w-full bg-[#222] pt-0 pb-8 px-4 flex flex-col items-center justify-center mt-auto relative">
+            <img src="/IMAGEES/arielfooter.jpg" alt="Animador" className="w-full max-w-2xl object-cover grayscale opacity-80 mb-4 mt-0 rounded-t-xl" style={{maxHeight:'300px'}} />
             <div className="flex flex-col items-center gap-2">
                 <span className="text-white text-sm mb-2">SÍGUEME EN REDES SOCIALES</span>
                 <div className="flex gap-4 mb-4">
