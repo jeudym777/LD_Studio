@@ -4,7 +4,6 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer className="w-full bg-[#222] py-8 px-4 flex flex-col items-center justify-center mt-auto relative">
-            <img src="/IMAGEES/arielfooter.jpg" alt="Ariel Footer" className="w-full max-w-4xl object-cover mb-4 rounded" style={{maxHeight:'180px'}} />
             <div className="flex flex-col items-center gap-2">
                 <span className="text-white text-sm mb-2">SÍGUEME EN REDES SOCIALES</span>
                 <div className="flex gap-4 mb-4">
