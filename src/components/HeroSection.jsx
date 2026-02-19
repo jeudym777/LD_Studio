@@ -22,7 +22,7 @@ const HeroSection = () => {
                 <div className="absolute right-8 bottom-8 flex flex-col items-end gap-2 text-white text-lg">
                     <a href="https://www.instagram.com/ariel_loaiza/?hl=es-la" target="_blank" rel="noopener noreferrer" className="hover:underline">@ARIEL_LOAIZA</a>
                     <a href="https://www.facebook.com/photo/?fbid=453362383459684&set=a.453362350126354&locale=es_LA" target="_blank" rel="noopener noreferrer" className="hover:underline">@ARIEL_LOAIZA_M</a>
-                    <span>GEEK WORLD NETWORK</span>
+                    <a href="https://www.youtube.com/c/GeekWorldNetwork" target="_blank" rel="noopener noreferrer" className="hover:underline">GEEK WORLD NETWORK</a>
                 </div>
             </div>
         </section>
