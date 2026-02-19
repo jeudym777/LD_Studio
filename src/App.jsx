@@ -1,19 +1,15 @@
 import React from 'react'
-import { HeroSection, Navbar,Companies,Courses, Achievement,Categories,FeedBack,CTA,Footer } from './components'
+import HeroSection from './components/HeroSection';
+import PackagesSection from './components/PackagesSection';
+import Footer from './components/Footer';
 
 function App() {
 
   return (
-    <div className="app">
-        <Navbar/>
-        <HeroSection/>
-        <Companies/>
-        <Courses/>
-        <Achievement/>
-        <Categories/>
-        <FeedBack/>
-        <CTA/>
-        <Footer/>
+    <div className="app bg-[#181818] min-h-screen flex flex-col justify-between">
+      <HeroSection />
+      <PackagesSection />
+      <Footer />
     </div>
   )
 }

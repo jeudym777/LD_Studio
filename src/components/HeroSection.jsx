@@ -1,32 +1,32 @@
 import React from 'react'
-import heroImg from '../assets/heroImg.png'
-import { AiOutlineSearch } from 'react-icons/ai'
+
 
 const HeroSection = () => {
-  return (
-    <section className='w-full bg-white py-24 p-4'>
-        <div className='md:max-w-[1100px] m-auto grid md:grid-cols-2 max-w-[400px]'>
-            <div className='flex flex-col justify-start gap-4'>
-                <p className='py-2 text-4xl text-[#208486] font-bold'>START TO SUCCESS</p>
-                <h1 className='md:leading-[42px] py-2 md:text-3xl text-lg font-semibold'>
-                    Access to over <span className='text-[#208486]'>1000</span> courses from over <span className='text-[#208486]'>200</span> professional instructors & institutions
-                </h1>
-                <p className='py-2 text-lg text-gray-900'>Various versions have evolved over the years</p>
-                <form className='input-box-shadow flex justify-content-between items-center bg-transparent gap-2'>
-                    <input type="text" className="my-2 w-full px-5 py-3 border border-solid border-neutral-300 bg-transparent bg-clip-padding text-base font-normal text-neutral-700 outline-none placeholder:text-neutral-500" placeholder='search for courses here'/>
-                    <button>
-                        <AiOutlineSearch
-                            size={30}
-                            className='icon'
-                            style={{ color:'#000' }}
-                        />
-                    </button>
-                </form>
+    return (
+        <section className="w-full bg-[#181818] py-0 px-0">
+            <div className="w-full flex flex-col items-center justify-center relative">
+                <div className="w-full flex flex-col md:flex-row items-stretch justify-center">
+                    {/* Imagen 1: Animador */}
+                    <div className="flex-1 flex flex-col items-center justify-end relative overflow-hidden min-h-[350px]">
+                        <img src={"/src/IMAGEES/arielfooter.jpg"} alt="Animador" className="object-cover w-full h-full opacity-80 grayscale" style={{maxHeight:'500px'}} />
+                    </div>
+                    <div className="flex-1 flex flex-col items-center justify-end relative overflow-hidden min-h-[350px]">
+                        <img src={"/src/IMAGEES/LDlogo.jpeg"} alt="Presentador" className="object-cover w-full h-full opacity-80" style={{maxHeight:'500px'}} />
+                    </div>
+                    <div className="flex-1 flex flex-col items-center justify-end relative overflow-hidden min-h-[350px]">
+                        <img src={"/src/IMAGEES/graduado.png"} alt="Locutor" className="object-cover w-full h-full opacity-80 grayscale" style={{maxHeight:'500px'}} />
+                    </div>
+                </div>
+                {/* ...eliminar texto principal... */}
+                {/* Redes sociales y contacto */}
+                <div className="absolute right-8 bottom-8 flex flex-col items-end gap-2 text-white text-lg">
+                    <a href="https://www.instagram.com/ariel_loaiza/?hl=es-la" target="_blank" rel="noopener noreferrer" className="hover:underline">@ARIEL_LOAIZA</a>
+                    <a href="https://www.facebook.com/photo/?fbid=453362383459684&set=a.453362350126354&locale=es_LA" target="_blank" rel="noopener noreferrer" className="hover:underline">@ARIEL_LOAIZA_M</a>
+                    <span>GEEK WORLD NETWORK</span>
+                </div>
             </div>
-            <img src={heroImg} alt="hero" className='md:order-last order-first'/>
-        </div>
-    </section>
-  )
+        </section>
+    );
 }
 
 export default HeroSection
