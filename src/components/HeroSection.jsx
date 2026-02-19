@@ -6,15 +6,15 @@ const HeroSection = () => {
         <section className="w-full bg-[#181818] py-0 px-0">
             <div className="w-full flex flex-col items-center justify-center relative">
                 <div className="w-full flex flex-col md:flex-row items-stretch justify-center">
-                    {/* Imagen 1: Animador */}
+                    {/* Imagen 1: Animador (ahora graduado) */}
                     <div className="flex-1 flex flex-col items-center justify-end relative overflow-hidden min-h-[350px]">
-                        <img src={"/IMAGEES/arielfooter.jpg"} alt="Animador" className="object-cover w-full h-full opacity-80 grayscale" style={{maxHeight:'500px'}} />
+                        <img src={"/IMAGEES/graduado.png"} alt="Animador" className="object-cover w-full h-full opacity-80 grayscale" style={{maxHeight:'500px'}} />
                     </div>
                     <div className="flex-1 flex flex-col items-center justify-end relative overflow-hidden min-h-[350px]">
                         <img src={"/IMAGEES/LDlogo.jpeg"} alt="Presentador" className="object-cover w-full h-full opacity-80" style={{maxHeight:'500px'}} />
                     </div>
                     <div className="flex-1 flex flex-col items-center justify-end relative overflow-hidden min-h-[350px]">
-                        <img src={"/IMAGEES/graduado.png"} alt="Locutor" className="object-cover w-full h-full opacity-80 grayscale" style={{maxHeight:'500px'}} />
+                        <img src={"/IMAGEES/arielfooter.jpg"} alt="Locutor" className="object-cover w-full h-full opacity-80 grayscale" style={{maxHeight:'500px'}} />
                     </div>
                 </div>
                 {/* ...eliminar texto principal... */}
